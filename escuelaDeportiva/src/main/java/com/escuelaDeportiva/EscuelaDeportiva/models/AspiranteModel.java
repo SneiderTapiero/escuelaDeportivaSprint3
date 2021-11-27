@@ -1,5 +1,5 @@
 package com.escuelaDeportiva.EscuelaDeportiva.models;
-
+import javax.validation.constraints.NotEmpty;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
