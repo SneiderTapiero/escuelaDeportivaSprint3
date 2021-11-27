@@ -9,6 +9,7 @@ public class AspiranteModel {
     @Id
     private String id;
 
+    @NotEmpty(message="No puede ir vacio el nombre")
     private String nombre;
     private String apellidos;
     private String fechanaci;
